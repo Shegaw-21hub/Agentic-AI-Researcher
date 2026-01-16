@@ -1,0 +1,8 @@
+Title: Triple-Lock Safety Protocol (2025)
+Details: This protocol requires three layers of verification for any AI-generated action. 
+1. The Maker generates the response.
+2. The Checker validates the response against the context.
+3. The Sanitizer removes any PII (Personally Identifiable Information).
+
+Title: Agentic Hallucination Prevention
+Details: To prevent hallucinations, agents must use 'Grounding', where they are strictly forbidden from answering using internal training data if external context is available.
